@@ -18,3 +18,5 @@ function suma(a, b) {
     window.resta = resta;
     window.multiplicar = multiplicar;
     window.dividir = dividir;
+
+    module.exports = { suma, resta, multiplicar, dividir };
